@@ -4,6 +4,7 @@ Koalateer is an iOS app aimed at connecting high school and college students to 
 ## Project Setup
 1.  Clone the repository. Open a terminal window, navigate to your desired location, and type `git clone https://github.com/ajaymoturi12/Koalateer.git`. Open the project in Xcode
 2.  Change the development team to your personal account. Click on "Koalateer" at the top of the hierarchy view to navigate to build settings. Go to the "Signing & Capabilities" tab. Switch the team to your personal account
+  > <img width="1130" alt="0signIn" src="https://user-images.githubusercontent.com/30359960/158496363-9ae93d76-6e3b-44ca-bca4-ae58426e4cf0.png">
 3.  Build the project.
 4.  You may need to exit out of Xcode and reopen it for the project to build successfully.
 
