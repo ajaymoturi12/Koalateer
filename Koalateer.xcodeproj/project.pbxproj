@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85647EAF28DA509500BA793D /* KoalateerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85647EAE28DA509500BA793D /* KoalateerApp.swift */; };
+		85647EB128DA509500BA793D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85647EB028DA509500BA793D /* ContentView.swift */; };
+		85647EB328DA509700BA793D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85647EB228DA509700BA793D /* Assets.xcassets */; };
+		85647EB628DA509700BA793D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85647EB528DA509700BA793D /* Preview Assets.xcassets */; };
+		85647EC028DA509700BA793D /* KoalateerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85647EBF28DA509700BA793D /* KoalateerTests.swift */; };
+		85647ECA28DA509700BA793D /* KoalateerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85647EC928DA509700BA793D /* KoalateerUITests.swift */; };
+		85647ECC28DA509700BA793D /* KoalateerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85647ECB28DA509700BA793D /* KoalateerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85647EBC28DA509700BA793D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85647EA328DA509500BA793D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85647EAA28DA509500BA793D;
+			remoteInfo = Koalateer;
+		};
+		85647EC628DA509700BA793D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85647EA328DA509500BA793D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85647EAA28DA509500BA793D;
+			remoteInfo = Koalateer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85647EAB28DA509500BA793D /* Koalateer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koalateer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85647EAE28DA509500BA793D /* KoalateerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalateerApp.swift; sourceTree = "<group>"; };
+		85647EB028DA509500BA793D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85647EB228DA509700BA793D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85647EB528DA509700BA793D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85647EBB28DA509700BA793D /* KoalateerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoalateerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85647EBF28DA509700BA793D /* KoalateerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalateerTests.swift; sourceTree = "<group>"; };
+		85647EC528DA509700BA793D /* KoalateerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoalateerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85647EC928DA509700BA793D /* KoalateerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalateerUITests.swift; sourceTree = "<group>"; };
+		85647ECB28DA509700BA793D /* KoalateerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalateerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85647EA828DA509500BA793D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85647EB828DA509700BA793D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85647EC228DA509700BA793D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85647EA228DA509500BA793D = {
+			isa = PBXGroup;
+			children = (
+				85647EAD28DA509500BA793D /* Koalateer */,
+				85647EBE28DA509700BA793D /* KoalateerTests */,
+				85647EC828DA509700BA793D /* KoalateerUITests */,
+				85647EAC28DA509500BA793D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85647EAC28DA509500BA793D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85647EAB28DA509500BA793D /* Koalateer.app */,
+				85647EBB28DA509700BA793D /* KoalateerTests.xctest */,
+				85647EC528DA509700BA793D /* KoalateerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85647EAD28DA509500BA793D /* Koalateer */ = {
+			isa = PBXGroup;
+			children = (
+				85647EAE28DA509500BA793D /* KoalateerApp.swift */,
+				85647EB028DA509500BA793D /* ContentView.swift */,
+				85647EB228DA509700BA793D /* Assets.xcassets */,
+				85647EB428DA509700BA793D /* Preview Content */,
+			);
+			path = Koalateer;
+			sourceTree = "<group>";
+		};
+		85647EB428DA509700BA793D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85647EB528DA509700BA793D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85647EBE28DA509700BA793D /* KoalateerTests */ = {
+			isa = PBXGroup;
+			children = (
+				85647EBF28DA509700BA793D /* KoalateerTests.swift */,
+			);
+			path = KoalateerTests;
+			sourceTree = "<group>";
+		};
+		85647EC828DA509700BA793D /* KoalateerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85647EC928DA509700BA793D /* KoalateerUITests.swift */,
+				85647ECB28DA509700BA793D /* KoalateerUITestsLaunchTests.swift */,
+			);
+			path = KoalateerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85647EAA28DA509500BA793D /* Koalateer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85647ECF28DA509700BA793D /* Build configuration list for PBXNativeTarget "Koalateer" */;
+			buildPhases = (
+				85647EA728DA509500BA793D /* Sources */,
+				85647EA828DA509500BA793D /* Frameworks */,
+				85647EA928DA509500BA793D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Koalateer;
+			productName = Koalateer;
+			productReference = 85647EAB28DA509500BA793D /* Koalateer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85647EBA28DA509700BA793D /* KoalateerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85647ED228DA509700BA793D /* Build configuration list for PBXNativeTarget "KoalateerTests" */;
+			buildPhases = (
+				85647EB728DA509700BA793D /* Sources */,
+				85647EB828DA509700BA793D /* Frameworks */,
+				85647EB928DA509700BA793D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85647EBD28DA509700BA793D /* PBXTargetDependency */,
+			);
+			name = KoalateerTests;
+			productName = KoalateerTests;
+			productReference = 85647EBB28DA509700BA793D /* KoalateerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85647EC428DA509700BA793D /* KoalateerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85647ED528DA509700BA793D /* Build configuration list for PBXNativeTarget "KoalateerUITests" */;
+			buildPhases = (
+				85647EC128DA509700BA793D /* Sources */,
+				85647EC228DA509700BA793D /* Frameworks */,
+				85647EC328DA509700BA793D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85647EC728DA509700BA793D /* PBXTargetDependency */,
+			);
+			name = KoalateerUITests;
+			productName = KoalateerUITests;
+			productReference = 85647EC528DA509700BA793D /* KoalateerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85647EA328DA509500BA793D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					85647EAA28DA509500BA793D = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					85647EBA28DA509700BA793D = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 85647EAA28DA509500BA793D;
+					};
+					85647EC428DA509700BA793D = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 85647EAA28DA509500BA793D;
+					};
+				};
+			};
+			buildConfigurationList = 85647EA628DA509500BA793D /* Build configuration list for PBXProject "Koalateer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85647EA228DA509500BA793D;
+			productRefGroup = 85647EAC28DA509500BA793D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85647EAA28DA509500BA793D /* Koalateer */,
+				85647EBA28DA509700BA793D /* KoalateerTests */,
+				85647EC428DA509700BA793D /* KoalateerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85647EA928DA509500BA793D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85647EB628DA509700BA793D /* Preview Assets.xcassets in Resources */,
+				85647EB328DA509700BA793D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85647EB928DA509700BA793D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85647EC328DA509700BA793D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85647EA728DA509500BA793D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85647EB128DA509500BA793D /* ContentView.swift in Sources */,
+				85647EAF28DA509500BA793D /* KoalateerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85647EB728DA509700BA793D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85647EC028DA509700BA793D /* KoalateerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85647EC128DA509700BA793D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85647ECA28DA509700BA793D /* KoalateerUITests.swift in Sources */,
+				85647ECC28DA509700BA793D /* KoalateerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85647EBD28DA509700BA793D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85647EAA28DA509500BA793D /* Koalateer */;
+			targetProxy = 85647EBC28DA509700BA793D /* PBXContainerItemProxy */;
+		};
+		85647EC728DA509700BA793D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85647EAA28DA509500BA793D /* Koalateer */;
+			targetProxy = 85647EC628DA509700BA793D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85647ECD28DA509700BA793D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85647ECE28DA509700BA793D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85647ED028DA509700BA793D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Koalateer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UBGR8SHZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AjayMoturi.Koalateer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85647ED128DA509700BA793D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Koalateer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UBGR8SHZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AjayMoturi.Koalateer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85647ED328DA509700BA793D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UBGR8SHZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AjayMoturi.KoalateerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koalateer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Koalateer";
+			};
+			name = Debug;
+		};
+		85647ED428DA509700BA793D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UBGR8SHZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AjayMoturi.KoalateerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koalateer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Koalateer";
+			};
+			name = Release;
+		};
+		85647ED628DA509700BA793D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UBGR8SHZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AjayMoturi.KoalateerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Koalateer;
+			};
+			name = Debug;
+		};
+		85647ED728DA509700BA793D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UBGR8SHZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AjayMoturi.KoalateerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Koalateer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85647EA628DA509500BA793D /* Build configuration list for PBXProject "Koalateer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85647ECD28DA509700BA793D /* Debug */,
+				85647ECE28DA509700BA793D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85647ECF28DA509700BA793D /* Build configuration list for PBXNativeTarget "Koalateer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85647ED028DA509700BA793D /* Debug */,
+				85647ED128DA509700BA793D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85647ED228DA509700BA793D /* Build configuration list for PBXNativeTarget "KoalateerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85647ED328DA509700BA793D /* Debug */,
+				85647ED428DA509700BA793D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85647ED528DA509700BA793D /* Build configuration list for PBXNativeTarget "KoalateerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85647ED628DA509700BA793D /* Debug */,
+				85647ED728DA509700BA793D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85647EA328DA509500BA793D /* Project object */;
+}
