@@ -7,13 +7,29 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @State var email = ""
+    @State var password = ""
+    @State var signIn: Bool=false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            TextField("Email:", text: self.$email)
+                .padding()
+            
+            SecureField("Password: ", text: self.$password)
+                .padding()
+            
+           
+            NavigationLink(destination: SwiftUIView(), isActive: self.$signIn) {
+                
+                Button(action: {
+                    signIn = true
+                }, label: {
+                    Text("Sign In")
+                })
+            }
         }
     }
 }
