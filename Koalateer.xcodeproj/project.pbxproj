@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		853FFB9328E3B64500FA8EC1 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853FFB9228E3B64500FA8EC1 /* SwiftUIView.swift */; };
 		85647EAF28DA509500BA793D /* KoalateerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85647EAE28DA509500BA793D /* KoalateerApp.swift */; };
 		85647EB128DA509500BA793D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85647EB028DA509500BA793D /* ContentView.swift */; };
 		85647EB328DA509700BA793D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85647EB228DA509700BA793D /* Assets.xcassets */; };
@@ -23,6 +22,12 @@
 		85647EE428DA5CCF00BA793D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 85647EE328DA5CCF00BA793D /* FirebaseFirestoreSwift */; };
 		85647EE628DA5CCF00BA793D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 85647EE528DA5CCF00BA793D /* FirebaseStorage */; };
 		85647EE828DA5CCF00BA793D /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 85647EE728DA5CCF00BA793D /* FirebaseStorageCombine-Community */; };
+		85CB006828ECBBA000EF08A4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB006728ECBBA000EF08A4 /* SignUpView.swift */; };
+		85CB006A28ECBD3F00EF08A4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB006928ECBD3F00EF08A4 /* HomeView.swift */; };
+		85CB006C28ECBD6B00EF08A4 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB006B28ECBD6B00EF08A4 /* SignInView.swift */; };
+		85CB006E28EF5AE600EF08A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85CB006D28EF5AE600EF08A4 /* GoogleService-Info.plist */; };
+		85CB006F28EF5AE600EF08A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85CB006D28EF5AE600EF08A4 /* GoogleService-Info.plist */; };
+		85CB007028EF5AE600EF08A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85CB006D28EF5AE600EF08A4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		853FFB9228E3B64500FA8EC1 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		85647EAB28DA509500BA793D /* Koalateer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koalateer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85647EAE28DA509500BA793D /* KoalateerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalateerApp.swift; sourceTree = "<group>"; };
 		85647EB028DA509500BA793D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,10 @@
 		85647EC528DA509700BA793D /* KoalateerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoalateerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85647EC928DA509700BA793D /* KoalateerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalateerUITests.swift; sourceTree = "<group>"; };
 		85647ECB28DA509700BA793D /* KoalateerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalateerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85CB006728ECBBA000EF08A4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		85CB006928ECBD3F00EF08A4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		85CB006B28ECBD6B00EF08A4 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		85CB006D28EF5AE600EF08A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +120,12 @@
 		85647EAD28DA509500BA793D /* Koalateer */ = {
 			isa = PBXGroup;
 			children = (
+				85CB006D28EF5AE600EF08A4 /* GoogleService-Info.plist */,
 				85647EAE28DA509500BA793D /* KoalateerApp.swift */,
 				85647EB028DA509500BA793D /* ContentView.swift */,
-				853FFB9228E3B64500FA8EC1 /* SwiftUIView.swift */,
+				85CB006B28ECBD6B00EF08A4 /* SignInView.swift */,
+				85CB006928ECBD3F00EF08A4 /* HomeView.swift */,
+				85CB006728ECBBA000EF08A4 /* SignUpView.swift */,
 				85647EB228DA509700BA793D /* Assets.xcassets */,
 				85647EB428DA509700BA793D /* Preview Content */,
 			);
@@ -265,6 +276,7 @@
 			files = (
 				85647EB628DA509700BA793D /* Preview Assets.xcassets in Resources */,
 				85647EB328DA509700BA793D /* Assets.xcassets in Resources */,
+				85CB006E28EF5AE600EF08A4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CB006F28EF5AE600EF08A4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CB007028EF5AE600EF08A4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,9 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CB006828ECBBA000EF08A4 /* SignUpView.swift in Sources */,
+				85CB006A28ECBD3F00EF08A4 /* HomeView.swift in Sources */,
 				85647EB128DA509500BA793D /* ContentView.swift in Sources */,
 				85647EAF28DA509500BA793D /* KoalateerApp.swift in Sources */,
-				853FFB9328E3B64500FA8EC1 /* SwiftUIView.swift in Sources */,
+				85CB006C28ECBD6B00EF08A4 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
