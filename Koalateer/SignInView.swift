@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import Firebase
 
 struct SignInView: View {
     @State var email: String = ""
@@ -65,7 +65,10 @@ struct SignInView: View {
                 
                 NavigationLink(value: signUp) {
                     Button(action: {
-                        signUp = true
+//                        if Koalateer.signIn(email: self.email, password: self.password) {
+//                            signUp = true
+//                        }
+                        signIn = true
                     }, label: {
                         HStack {
                             Image(systemName: "cursorarrow")
@@ -90,3 +93,17 @@ struct SignInView_Previews: PreviewProvider {
         SignInView()
     }
 }
+
+/**
+func signIn(email: String, password: String) -> Bool {
+    Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
+                if error == nil {
+                    print("success")
+                    return true
+                } else {
+                    print("login failed")
+                    return false
+                }
+    }
+}
+*/

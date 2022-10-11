@@ -25,9 +25,7 @@
 		85CB006828ECBBA000EF08A4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB006728ECBBA000EF08A4 /* SignUpView.swift */; };
 		85CB006A28ECBD3F00EF08A4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB006928ECBD3F00EF08A4 /* HomeView.swift */; };
 		85CB006C28ECBD6B00EF08A4 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB006B28ECBD6B00EF08A4 /* SignInView.swift */; };
-		85CB006E28EF5AE600EF08A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85CB006D28EF5AE600EF08A4 /* GoogleService-Info.plist */; };
-		85CB006F28EF5AE600EF08A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85CB006D28EF5AE600EF08A4 /* GoogleService-Info.plist */; };
-		85CB007028EF5AE600EF08A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85CB006D28EF5AE600EF08A4 /* GoogleService-Info.plist */; };
+		85DCD8AA28EF94B400DC4002 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85DCD8A928EF94B400DC4002 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +59,7 @@
 		85CB006728ECBBA000EF08A4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		85CB006928ECBD3F00EF08A4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		85CB006B28ECBD6B00EF08A4 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
-		85CB006D28EF5AE600EF08A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85DCD8A928EF94B400DC4002 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +118,7 @@
 		85647EAD28DA509500BA793D /* Koalateer */ = {
 			isa = PBXGroup;
 			children = (
-				85CB006D28EF5AE600EF08A4 /* GoogleService-Info.plist */,
+				85DCD8A928EF94B400DC4002 /* GoogleService-Info.plist */,
 				85647EAE28DA509500BA793D /* KoalateerApp.swift */,
 				85647EB028DA509500BA793D /* ContentView.swift */,
 				85CB006B28ECBD6B00EF08A4 /* SignInView.swift */,
@@ -275,8 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				85647EB628DA509700BA793D /* Preview Assets.xcassets in Resources */,
+				85DCD8AA28EF94B400DC4002 /* GoogleService-Info.plist in Resources */,
 				85647EB328DA509700BA793D /* Assets.xcassets in Resources */,
-				85CB006E28EF5AE600EF08A4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +282,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85CB006F28EF5AE600EF08A4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +289,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85CB007028EF5AE600EF08A4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
