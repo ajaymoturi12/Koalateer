@@ -26,6 +26,8 @@
 		85CB006A28ECBD3F00EF08A4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB006928ECBD3F00EF08A4 /* HomeView.swift */; };
 		85CB006C28ECBD6B00EF08A4 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB006B28ECBD6B00EF08A4 /* SignInView.swift */; };
 		85DCD8AA28EF94B400DC4002 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85DCD8A928EF94B400DC4002 /* GoogleService-Info.plist */; };
+		85DCD8AE2908A3AD00DC4002 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCD8AD2908A3AD00DC4002 /* Gender.swift */; };
+		85DCD8B02908A3F200DC4002 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCD8AF2908A3F200DC4002 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		85CB006928ECBD3F00EF08A4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		85CB006B28ECBD6B00EF08A4 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		85DCD8A928EF94B400DC4002 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85DCD8AD2908A3AD00DC4002 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		85DCD8AF2908A3F200DC4002 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		85647EA228DA509500BA793D = {
 			isa = PBXGroup;
 			children = (
+				85DCD8AF2908A3F200DC4002 /* Student.swift */,
 				85647EAD28DA509500BA793D /* Koalateer */,
 				85647EBE28DA509700BA793D /* KoalateerTests */,
 				85647EC828DA509700BA793D /* KoalateerUITests */,
@@ -124,6 +129,7 @@
 				85CB006B28ECBD6B00EF08A4 /* SignInView.swift */,
 				85CB006928ECBD3F00EF08A4 /* HomeView.swift */,
 				85CB006728ECBBA000EF08A4 /* SignUpView.swift */,
+				85DCD8AD2908A3AD00DC4002 /* Gender.swift */,
 				85647EB228DA509700BA793D /* Assets.xcassets */,
 				85647EB428DA509700BA793D /* Preview Content */,
 			);
@@ -299,10 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85DCD8AE2908A3AD00DC4002 /* Gender.swift in Sources */,
 				85CB006828ECBBA000EF08A4 /* SignUpView.swift in Sources */,
 				85CB006A28ECBD3F00EF08A4 /* HomeView.swift in Sources */,
 				85647EB128DA509500BA793D /* ContentView.swift in Sources */,
 				85647EAF28DA509500BA793D /* KoalateerApp.swift in Sources */,
+				85DCD8B02908A3F200DC4002 /* Student.swift in Sources */,
 				85CB006C28ECBD6B00EF08A4 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

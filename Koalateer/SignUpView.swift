@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+import Firebase
+import FirebaseAuth
+import FirebaseFirestore
 
 struct SignUpView: View {
     
@@ -69,6 +72,16 @@ struct SignUpView: View {
             
             NavigationLink(value: signedUp, label: {
                 Button(action: {
+                    let dateFormatter = DateFormatter()
+                    Koalateer.signUp(email: self.email, password: self.password, first: self.first, last: self.last, school: self.school.rawValue, birthdate: dateFormatter.string(from: self.birthdate), gender: self.gender.rawValue) { (successful, result) in
+                        if successful {
+                            signedUp = true
+                        } else {
+                            signedUp = false
+                            print(result)
+                        }
+                        
+                    }
                     signedUp = true
                 }, label: {
                     Text("Sign Up")
@@ -89,5 +102,20 @@ struct SignUpView: View {
 struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
         SignUpView()
+    }
+}
+
+func signUp(email: String, password: String, first: String, last: String, school:String, birthdate: String, gender: String, completion: @escaping (Bool, String) -> Void) {
+    
+    Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+        if error != nil {
+            completion(false, "error in creating user account")
+        }
+        else {
+            let db = Firestore.firestore()
+            let user = authResult!.user
+            db.collection("users").document(user.uid).setData(["email": email, "first": first, "last": last, "school": school, "birthdate": birthdate, "gender": gender], merge: true)
+            completion(true, "success")
+        }
     }
 }

@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Firebase
+import FirebaseAuth
 
 struct SignInView: View {
     @State var email: String = ""
@@ -49,7 +50,15 @@ struct SignInView: View {
                 
                 NavigationLink(value: signIn) {
                     Button(action: {
-                        signIn = true
+                        Koalateer.signIn(email: self.email, password: self.password) { (completion) in
+                            if completion {
+                                signIn = true
+                                print("successfully logged in")
+                            } else{
+                                signIn = false
+                                print("sign in error: email : \(email) pass: \(password)")
+                            }
+                        }
                     }, label: {
                         Text("Sign In")
                             .frame(width: 100, height: 50)
@@ -65,10 +74,7 @@ struct SignInView: View {
                 
                 NavigationLink(value: signUp) {
                     Button(action: {
-//                        if Koalateer.signIn(email: self.email, password: self.password) {
-//                            signUp = true
-//                        }
-                        signIn = true
+                        signUp = true
                     }, label: {
                         HStack {
                             Image(systemName: "cursorarrow")
@@ -94,16 +100,13 @@ struct SignInView_Previews: PreviewProvider {
     }
 }
 
-/**
-func signIn(email: String, password: String) -> Bool {
+
+func signIn(email: String, password: String, completion: @escaping (Bool) -> Void) {
     Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
-                if error == nil {
-                    print("success")
-                    return true
-                } else {
-                    print("login failed")
-                    return false
-                }
+        if error != nil {
+            completion(false)
+        } else{
+            completion(true)
+        }
     }
 }
-*/
